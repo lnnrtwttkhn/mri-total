@@ -1,6 +1,6 @@
 ---
 title: "MRI Total"
-subtitle: "Towards an automated, standardized, reproducible, version-controlled, transparent, quality-assured, privacy-compliant processing pipeline for MRI data"
+subtitle: "Towards an automated, standardized, reproducible, version-controlled, transparent, FAIR, quality-assured, privacy-compliant processing pipeline for MRI data"
 # date:
 # date-modified:
 engine: knitr
@@ -11,3 +11,11 @@ engine: knitr
 > Abstract: Submit an abstract of 80-120 words describing your poster, emphasizing the computational methodologies used and the application areas covered.
 
 > We encourage you to submit posters that highlight either the structure of their institutional setup while working in data science and computation, and/or present sample projects in this area. Posters should provide a concise overview of the computational methodologies employed and the application areas they address.
+
+Neuroscientists at University of Hamburg (UHH) collect human brain imaging data in over XX studies per year.
+However, this data treasure is not systematically standardized, stored,  or controlled for quality.
+We propose a  processing pipeline for human brain imaging data that leverages UHH computational infrastructure, including the object storage and high-performance computing cluster, in combination with state-of-the-art open-source neuroinformatics tools.
+Right after collection, data are transformed to the Brain Imaging Data Structure (BIDS),
+
+This project promises to ensure transparency and reproducibility and efficient research.
+
