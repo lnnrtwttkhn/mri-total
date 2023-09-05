@@ -24,5 +24,10 @@ hours_day = hours_month / 20
 hours_year = hours_q2_2023 * 4
 ```
 
+## References
+
+- https://gepris.dfg.de/gepris/projekt/298950072
+- https://gepris.dfg.de/gepris/projekt/298960252
+
 
 
