@@ -77,6 +77,7 @@ format:
     fig-cap-location: margin
     tbl-cap-location: margin
     page-layout: article
+    reference-location: margin
     # code:
     code-fold: show
     code-summary: "Show the code"
