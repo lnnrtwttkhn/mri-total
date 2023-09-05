@@ -6,7 +6,7 @@ subtitle: "Towards an automated, standardized, reproducible, version-controlled,
 engine: knitr
 abstract: |
   ^[Submit an abstract of 80-120 words describing your poster, emphasizing the computational methodologies used and the application areas covered.]
-  Neuroscientists at University of Hamburg (UHH) collect human brain imaging data in over XX studies per year.
+  Neuroscientists at University of Hamburg (UHH) collect thousands of hours of human brain imaging data per year.
   However, this data treasure is not systematically standardized, stored, or controlled for quality.
   We propose an institution-wide processing pipeline for human brain imaging data that connects state-of-the-art open-source neuroinformatics software tools and leverages UHH computational infrastructure, including the object storage and high-performance computing cluster.
   Immediately following collection, data are transformed to the Brain Imaging Data Structure (BIDS) standard and submitted to in-depth automated quality assurance (MRIQC).
@@ -14,6 +14,15 @@ abstract: |
   This project promises high-quality reproducible research outputs and boost the efficiency of scientific workflows.
 ---
 
+```{r}
+#| eval: true
+#| echo: false
+hours_q2_2023 = 425
+months_quarter = 3
+hours_month = hours_q2_2023 / months_quarter
+hours_day = hours_month / 20
+hours_year = hours_q2_2023 * 4
+```
 
 
 
