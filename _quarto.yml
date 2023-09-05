@@ -86,7 +86,7 @@ format:
     code-link: false
     code-annotations: true
     code-tools:
-      source: https://github.com/lnnrtwttkhn/quarto-article
+      source: https://github.com/lnnrtwttkhn/mri-total
       toggle: true
       caption: "Code"
     highlight-style: monokai
