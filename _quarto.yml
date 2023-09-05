@@ -24,7 +24,7 @@ author:
   # note: string
   # acknowledgements: string
   attributes:
-    corresponding: boolean
+    corresponding: true
     # equal-contributor: boolean
     # deceased: boolean
   # metadata: object
@@ -32,8 +32,29 @@ author:
     - ref: uhh-psych
     # - ref: mpib
     # - ref: mps-ucl
-abstract: "This is the abstract."
-abstract-title: "Abstract"
+- id: schuck
+  # number: number
+  name:
+    given: Nicolas
+    family: Schuck
+    literal: Nicolas W. Schuck
+    # dropping-particle: string
+    # non-dropping-particle: string
+  url: https://schucklab.gitlab.io/
+  email: nicolas.schuck@uni-hamburg.de
+  # fax: string
+  orcid: 0000-0002-0150-8776
+  # note: string
+  # acknowledgements: string
+  attributes:
+    corresponding: false
+    # equal-contributor: boolean
+    # deceased: boolean
+  # metadata: object
+  affiliations:
+    - ref: uhh-psych
+    # - ref: mpib
+    # - ref: mps-ucl
 format:
   # see here for all html options: https://quarto.org/docs/reference/formats/html.html
   html:
@@ -81,7 +102,7 @@ format:
     # language
     language: en
     # metadata
-    copyright: "Lennart Wittkuhn"
+    copyright: "Lennart Wittkuhn & Nicolas W. Schuck"
     license: "CC BY"
     # rendering:
     from: "markdown+emoji"
